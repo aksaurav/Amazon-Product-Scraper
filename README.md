@@ -18,9 +18,20 @@ You can install these dependencies using the following command:
 ### How to Use
 1. Open the Python script in your preferred editor.
 2. Replace the url variable with your desired Amazon search URL.
+
 ```url = "https://www.amazon.in/s?k=bags&crid=2M096C61O4MLT&qid=1653308124&sprefix=ba%2Caps%252"```
-3. Run the script. It will fetch product details from multiple pages and save them to a CSV file named product_data.csv.
+
+4. Run the script. It will fetch product details from multiple pages and save them to a CSV file named product_data.csv.
+   
 ```python amazon_scraper.py```
+
+## Features
+> Extracts product name, price, ratings, number of reviews, description, ASIN, product description, and manufacturer.
+> Handles cases where certain information is not available on the product page.
+
+## Notes
+> In case of errors during scraping, they will be printed with the corresponding error message.
+
 
 
 
